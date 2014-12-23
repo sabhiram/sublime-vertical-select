@@ -105,11 +105,7 @@ class VerticalSelectDownCommand(sublime_plugin.TextCommand):
                 nn_row, nn_col = self.view.rowcol(new_point)
 
                 print("ORIG: %d,%d OLD: %d,%d -> NEW: %d,%d"%(row, col, n_row, n_col, nn_row, nn_col))
-                if nn_row == n_row and not nn_col == n_col:
-                    point_in_next_line = self.view.text_point(n_row, 0)
-                    padLineToSize(self.view, edit, point_in_next_line, n_col)
-                    new_point = self.view.text_point(n_row, n_col)
-                elif nn_row > n_row:
+                if (nn_row == n_row and not nn_col == n_col) or (nn_row > n_row):
                     point_in_next_line = self.view.text_point(n_row, 0)
                     padLineToSize(self.view, edit, point_in_next_line, n_col)
                     new_point = self.view.text_point(n_row, n_col)
