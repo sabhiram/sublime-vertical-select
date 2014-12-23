@@ -1,0 +1,10 @@
+[
+    {
+        "keys": ["alt+shift+up"],
+        "command": "vertical_select_up"
+    },
+    {
+        "keys": ["alt+shift+down"],
+        "command": "vertical_select_down"
+    }
+]
