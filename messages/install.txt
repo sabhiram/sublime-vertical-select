@@ -1,0 +1,15 @@
+ _    __             __   _               __   _____        __             __ 
+| |  / /___   _____ / /_ (_)_____ ____ _ / /  / ___/ ___   / /___   _____ / /_
+| | / // _ \ / ___// __// // ___// __ `// /   \__ \ / _ \ / // _ \ / ___// __/
+| |/ //  __// /   / /_ / // /__ / /_/ // /   ___/ //  __// //  __// /__ / /_  
+|___/ \___//_/    \__//_/ \___/ \__,_//_/   /____/ \___//_/ \___/ \___/ \__/  
+                                                                              
+Github - https://github.com/sabhiram/sublime-vertical-select
+
+Thank you for installing the Vertical Select plugin!
+
+Usage is as follows:
+1. Press alt + shift + up to select the same col from the previous line
+2. Press alt + shift + down to select the col from the next line
+
+
