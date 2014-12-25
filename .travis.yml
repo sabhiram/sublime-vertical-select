@@ -7,7 +7,7 @@ os:
 env:
     global:
         # Package to be tested
-        - PACKAGE="sublime-vertical-sync"
+        - PACKAGE="sublime-vertical-select"
     matrix:
         - SUBLIME_TEXT_VERSION="2"
         - SUBLIME_TEXT_VERSION="3"
