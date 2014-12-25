@@ -12,4 +12,7 @@ Usage is as follows:
 1. Press alt + shift + up to select the same col from the previous line
 2. Press alt + shift + down to select the col from the next line
 
+Note that if the line we are trying to extend our vertical selection to is shorter than the cursors current position - it will be padded with spaces. For this reason, it is probably a good idea trim trailing whitespaces on save.
+
+
 
