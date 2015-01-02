@@ -50,11 +50,11 @@ Appreciate the help! Here is stuff you should probably know:
 
 Some folks prefer to clone the git repo right into their SublimeText `Packages` folder. While this is probably ok for most users, I prefer to create a symbolic link to the package so that I can point to the plugin from both flavors of SublimeText (for testing and the like...)
 
-```sh
+```
 cd ~/dev
-git clone git@github.com:sabhiram/sublime-vertical-sync.git sublime-vertical-sync
-ln -s sublime-vertical-sync ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/sublime-vertical-sync
-ln -s sublime-vertical-sync ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/sublime-vertical-sync
+git clone git@github.com:sabhiram/sublime-vertical-select.git sublime-vertical-select
+ln -s sublime-vertical-select ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/sublime-vertical-select
+ln -s sublime-vertical-select ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/sublime-vertical-select 
 ```
 
 ### Running Tests & CI 
@@ -67,7 +67,7 @@ Next make sure you have [Package Control](https://sublime.wbond.net/installation
 
 Via the SublimeText Package Control, install the `UnitTesting` package. You can do this by hitting `ctrl + shift + p`, then select `Package Control: Install Package`. Once the menu loads, choose the `UnitTesting` package.
 
-To run the tests: `ctrl + shift + p` then select `UnitTesting: Run any project test suite` and type in the name of this package (in my case, and typically `sublime-vertical-sync` but is basically the name of the folder which you chose to clone the repo into).
+To run the tests: `ctrl + shift + p` then select `UnitTesting: Run any project test suite` and type in the name of this package (in my case, and typically `sublime-vertical-select` but is basically the name of the folder which you chose to clone the repo into).
 
 ### Sublime Text API Reference
 
